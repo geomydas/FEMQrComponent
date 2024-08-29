@@ -1,0 +1,42 @@
+@use "../abstract/variables";
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: variables.$clr-slate-300;
+  padding: 1.75rem;
+}
+
+.card {
+  background-color: variables.$clr-white;
+  border-radius: 1.25rem;
+  padding: 1rem 1rem 2.5rem;
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 4.77%);
+  max-width: 20rem;
+}
+
+.card_img {
+  border-radius: 0.625rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+.card_header {
+  font-family: variables.$f-outfit;
+  font-size: 1.375rem;
+  margin-bottom: 1rem;
+  color: variables.$clr-slate-900;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.card_paragraph {
+  font-family: variables.$f-outfit;
+  font-size: 0.9375rem;
+  letter-spacing: 0.011875rem;
+  padding: 0 1rem;
+  text-align: center;
+  color: variables.$clr-slate-500;
+}
